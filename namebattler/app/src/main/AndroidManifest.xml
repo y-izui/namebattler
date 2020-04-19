@@ -9,6 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".BattleTactics"></activity>
+        <activity android:name=".BattleResult" />
+        <activity android:name=".BattleMain" />
+        <activity android:name=".BattleStart" />
+        <activity android:name=".PartyList" />
+        <activity android:name=".CharacterCreateCompleted" />
+        <activity android:name=".CharacterCreate" />
+        <activity android:name=".CharacterStatus" />
+        <activity android:name=".CharacterList" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
